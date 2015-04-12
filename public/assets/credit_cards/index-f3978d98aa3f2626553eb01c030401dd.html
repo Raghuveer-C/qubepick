@@ -1,0 +1,1 @@
+<h2>{{ :: 'credit_cards.credit_cards' | translate}}</h2><div id="credit-cards"><div class="not-found" ng-if="creditCards.length == 0"><p>{{ :: 'credit_cards.no_credit_cards_on_file' | translate}}</p></div><div class="found clearfix" ng-repeat="card in creditCards"><credit-card-view allow-delete="true" card="card"></credit-card-view></div></div>
